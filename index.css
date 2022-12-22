@@ -1,3 +1,32 @@
 body{
     background-color:rgb(241, 227, 227)
 }
+#parent{
+    position: inherit;
+    
+    height: 600px;
+    width: 600px;
+    background-color:  red;
+}
+#child{
+    position: relative;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background-color:  white;
+    
+}
+#kid{
+    position: absolute;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-color:  rgb(39, 39, 146);
+}
+.btnelmnt{
+    border-radius: 50%;
+    background-color: aqua;
+}
+.btnelmnt:hover{
+    background-color: darkorange;
+}
